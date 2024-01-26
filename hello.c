@@ -11,6 +11,7 @@ if (str[i] >= 'a' && str[i] <= 'z') {
 str[i] = str[i] - 'a' + 'A';
 }
 }
+print("Hello World!");
 printf("The capitalized string is: %s\n", str);
 // Reverse the string.
 for (i = 0, len = strlen(str); i < len / 2; i++) {
